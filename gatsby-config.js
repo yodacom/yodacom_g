@@ -2,9 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Yodacom`,
     description: `Yodacom builds blazing fast, secure, SEO optimized websites and landing pages to get your product, personality or promotions supercharged`,
-    author: `@gatsbyjs`,
+    author: `@Jeremy Black - yoda from yodacom`,
+    siteUrl: 'https://silly-fermi-bf850c.netlify.com'
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
@@ -22,13 +24,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Yodacom Blog`,
+        short_name: `Yodacom`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#524763`,
+        theme_color: `#524763`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/yodacomLogo180x180.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
