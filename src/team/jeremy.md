@@ -1,5 +1,5 @@
 ---
 title: Jeremy
-bio: Yoda from Yodacom
+bio: Yoda from Yodacom - The site admin
 ---
 
