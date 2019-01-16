@@ -48,6 +48,7 @@ module.exports = {
         name: `images`
       }
     },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    'gatsby-plugin-netlify',
   ],
 }
