@@ -49,6 +49,7 @@ module.exports = {
       }
     },
     'gatsby-transformer-remark',
-    'gatsby-plugin-netlify',
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify`, // keep this as last in the plugin array!
   ],
 }

@@ -76,6 +76,7 @@ Layout.propTypes = {
 }
 Layout.defaultProps = {
   location: {},
+
 }
 
 export default Layout
